@@ -1,1 +1,3 @@
 hello world kkb
+beforeClass 存放了在学习NLP课程前参考资料及课前的附加题的编程实现
+Math 存放了老师数学串讲过程中的代码实现
