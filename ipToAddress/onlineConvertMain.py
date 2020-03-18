@@ -1,11 +1,8 @@
-from package.randompoint import point, pointG;
-from package.bdgps import baiduGps
 from package.onlineIpConvert import onlineConvert
 
-ip_address = "112.22.2.62"#ip地址
+ip_address = "153.34.133.233"#ip地址
 radius_dis = 5 #随机点取值范围，单位km
 
-baiduGpsCls = baiduGps.baiduGps()
 
 ###以下是在线获取坐标方式
 ### 获取省份和城市
@@ -16,6 +13,8 @@ res = online_convert_cls.online_ip_covert_by_config(ip_address)
 print("map_service is :",online_convert_cls.map_service)
 print("the province and city are :",res)
 
+'''
+baiduGpsCls = baiduGps.baiduGps()
 
 region_name = res["province"]#省份
 city_name = res["city"]#城市
@@ -42,3 +41,4 @@ getRandomPositionCls = pointG.generateRandomGpsByPosition((lng,lat),radius_dis)
 gps_result = getRandomPositionCls.getRandomPosition()
 print("方法2转化结果")
 print(gps_result)
+'''
