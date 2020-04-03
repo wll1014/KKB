@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>运维可视化系统</title>
+  <script type="text/javascript">
+
+    window.onload = function () {
+      // 封装了 缩放的实现全屏（此方法与响应式设计有所区别，我们解决 实际分辨率高于 最小宽度的场景）
+      // 详情咨询 孔纯或吴林莉
+      scaleObj.init(1600)
+      var scaleDpr = scaleObj.getDpr()
+      scaleObj.autoScale()
+      window.addEventListener("resize",()=>{
+        if(scaleObj.getDpr() !== scaleDpr) {
+          scaleDpr = scaleObj.getDpr();
+          scaleObj.autoScale()
+        }
+      });
+
+      // 兼容部分不支持nodeList forEach的浏览器
+      if (window.NodeList && !NodeList.prototype.forEach) {
+        NodeList.prototype.forEach = function (callback, thisArg) {
+          thisArg = thisArg || window
+          for (var i = 0; i < this.length; i++) {
+            callback.call(thisArg, this[i], i, this)
+          }
+        }
+      };
+    }
+  </script>
+  <!--测试环境-->
+  <link href="/ops/static/js/element-ui/lib/theme-chalk/index.css" rel="stylesheet"/>
+  <link rel='stylesheet' type="text/css" href="/ops/static/init.css"/>
+</head>
+<body class="min-body">
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<script type="text/javascript" src="/ops/static/js/scale.js"></script>
+<script src="/ops/static/js/date.format.js"></script>
+<script src="/ops/static/js/vue/dist/vue.min.js"></script>
+<script src="/ops/static/js/vue-router/dist/vue-router.min.js"></script>
+<script src="/ops/static/js/element-ui/lib/index.js"></script>
+<script src="/ops/static/js/axios/dist/axios.min.js"></script>
+<script src="/ops/static/js/echarts/dist/echarts.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+﻿A:link
+{
+    color: #2A2A2A;
+    text-decoration: none;
+}
+A:visited
+{
+    color: #2A2A2A;
+    text-decoration: none;
+}
+
+.index
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.index li
+{
+    list-style-type: none;
+    text-align: left;
+    white-space: nowrap;
+}
+
+html, body
+{
+    background-color: #ACD1F2;
+    padding: 0px;
+    margin: 2px;
+    font-size: 12px;
+    color: #2A2A2A;
+}
+
+#tbxKey
+{
+    width: 90%;
+    border:solid 1px #7F9DB9;
+}
+
+.bg
+{
+    background-color: #EAF1F7;
+}
+.border_top
+{
+    border-top: solid 1px #F0F5FB;
+}
+.border_left
+{
+    border-left: solid 1px #F0F5FB;
+}
+.border_right
+{
+    border-right: solid 1px #98BADC;
+}
+.border_bottom
+{
+    border-bottom: solid 1px #98BADC;
+}
+.border_bottom_top
+{
+    border-bottom: solid 1px #E6EFF7;
+}
+.button
+{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.searchbutton
+{
+    margin-top: 2px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    border-top: solid 1px #E6EFF7;
+    border-left: solid 1px #D5E4F0;
+    border-right: solid 1px #98BADC;
+    border-bottom: solid 1px #98BADC;
+}
+
+.textinput
+{
+    padding: 2px;
+}
+
+
+.frame_border_right
+{
+    border-right: solid 1px #7EB2E0;
+}
+
+.frame_border_content
+{
+    border: solid 4px #ACD1F2;
+}

@@ -1,0 +1,199 @@
+ <!-- 
+/* Font Definitions */
+ @font-face {font-family:Wingdings; panose-1:5 0 0 0 0 0 0 0 0 0; }
+ @font-face {font-family:宋体; panose-1:2 1 6 0 3 1 1 1 1 1; }
+ @font-face {font-family:黑体; panose-1:2 1 6 9 6 1 1 1 1 1; }
+ @font-face {font-family:黑体; panose-1:2 1 6 9 6 1 1 1 1 1; }
+ @font-face {font-family:"Arial Unicode MS"; panose-1:2 11 6 4 2 2 2 2 2 4; }
+ @font-face {font-family:"\@宋体"; panose-1:2 1 6 0 3 1 1 1 1 1; }
+ @font-face {font-family:"\@Arial Unicode MS"; panose-1:2 11 6 4 2 2 2 2 2 4; }
+ @font-face {font-family:"\@黑体"; panose-1:2 1 6 9 6 1 1 1 1 1; }
+ 
+/* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:justify; text-justify:inter-ideograph; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ h1 { margin-top:24.0pt; margin-right:0cm; margin-bottom:24.0pt; margin-left:0cm; text-indent:0cm; page-break-after:avoid; font-size:16.0pt; font-family:"Arial","sans-serif"; }
+ h2 { margin-top:20.0pt; margin-right:0cm; margin-bottom:20.0pt; margin-left:34.0pt; text-indent:-1.0cm; page-break-after:avoid; font-size:15.0pt; font-family:"Arial","sans-serif"; }
+ h3 { margin-top:16.0pt; margin-right:0cm; margin-bottom:16.0pt; margin-left:45.35pt; text-indent:-34.0pt; line-height:12.0pt; page-break-after:avoid; font-size:12.0pt; font-family:"Arial","sans-serif"; }
+ h4 { margin-top:12.0pt; margin-right:0cm; margin-bottom:12.0pt; margin-left:59.55pt; text-align:justify; text-justify:inter-ideograph; text-indent:-42.55pt; line-height:12.0pt; page-break-after:avoid; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ h5 { margin-top:12.0pt; margin-right:0cm; margin-bottom:3.0pt; margin-left:50.4pt; text-align:justify; text-justify:inter-ideograph; text-indent:-50.4pt; line-height:18.0pt; font-size:13.0pt; font-family:"Arial","sans-serif"; font-style:italic;}
+ h6 { margin-top:12.0pt; margin-right:0cm; margin-bottom:3.0pt; margin-left:57.6pt; text-align:justify; text-justify:inter-ideograph; text-indent:-57.6pt; line-height:18.0pt; font-size:11.0pt; font-family:"Arial","sans-serif"; }
+ p.MsoHeading7, li.MsoHeading7, div.MsoHeading7 { margin-top:12.0pt; margin-right:0cm; margin-bottom:3.0pt; margin-left:64.8pt; text-align:justify; text-justify:inter-ideograph; text-indent:-64.8pt; line-height:18.0pt; font-size:12.0pt; font-family:"Arial","sans-serif"; }
+ p.MsoHeading8, li.MsoHeading8, div.MsoHeading8 { margin-top:12.0pt; margin-right:0cm; margin-bottom:3.0pt; margin-left:72.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:-72.0pt; line-height:18.0pt; font-size:12.0pt; font-family:"Arial","sans-serif"; font-style:italic;}
+ p.MsoHeading9, li.MsoHeading9, div.MsoHeading9 { margin-top:12.0pt; margin-right:0cm; margin-bottom:3.0pt; margin-left:79.2pt; text-align:justify; text-justify:inter-ideograph; text-indent:-79.2pt; line-height:18.0pt; font-size:11.0pt; font-family:"Arial","sans-serif"; }
+ p.MsoCommentText, li.MsoCommentText, div.MsoCommentText { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.MsoHeader, li.MsoHeader, div.MsoHeader { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:center; line-height:12.0pt; tab-stops:center 207.65pt right 415.3pt; layout-grid-mode:char; font-size:9.0pt; font-family:"Arial","sans-serif"; }
+ p.MsoFooter, li.MsoFooter, div.MsoFooter { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; line-height:12.0pt; tab-stops:center 207.65pt right 415.3pt; layout-grid-mode:char; font-size:9.0pt; font-family:"Arial","sans-serif"; }
+ p.MsoCaption, li.MsoCaption, div.MsoCaption { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:justify; text-justify:inter-ideograph; line-height:18.0pt; font-size:10.0pt; font-family:"Cambria","serif"; }
+ span.MsoCommentReference { }
+ a:link, span.MsoHyperlink {color:blue; text-decoration:underline; text-underline:single;}
+ a:visited, span.MsoHyperlinkFollowed { color:purple; text-decoration:underline; text-underline:single;}
+ p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; font-weight:bold; }
+ p.MsoAcetate, li.MsoAcetate, div.MsoAcetate { margin-top:0cm; margin-right:0cm; margin-bottom:0cm; margin-left:17.0pt; margin-bottom:.0001pt; text-align:justify; text-justify:inter-ideograph; font-size:9.0pt; font-family:"Arial","sans-serif"; }
+ p.MsoRMPane, li.MsoRMPane, div.MsoRMPane { margin:0cm; margin-bottom:.0001pt; font-size:10.5pt; font-family:"Times New Roman","serif"; }
+ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ span.1Char { font-family:"Arial","sans-serif"; font-weight:bold; }
+ span.2Char { font-family:"Arial","sans-serif"; font-weight:bold; }
+ span.3Char { font-family:"Arial","sans-serif"; font-weight:bold; }
+ span.4Char { font-family:"Arial","sans-serif"; font-weight:bold;}
+ span.5Char { font-family:"Arial","sans-serif"; font-weight:bold; font-style:italic;}
+ span.6Char { font-family:"Arial","sans-serif"; font-weight:bold;}
+ span.7Char { font-family:"Arial","sans-serif"; }
+ span.8Char { font-family:"Arial","sans-serif"; font-style:italic;}
+ span.9Char { font-family:"Arial","sans-serif"; }
+ span.Char { font-family:"Times New Roman","serif"; }
+ span.Char0 { font-family:"Times New Roman","serif"; }
+ p.a, li.a, div.a { margin-top:12.0pt; margin-right:0cm; margin-bottom:12.0pt; margin-left:17.0pt; text-align:justify; text-justify:inter-ideograph; line-height:150%; font-size:10.5pt; font-family:"Times New Roman","serif"; font-weight:bold;}
+ p.a0, li.a0, div.a0 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; color:#0066CC; font-weight:bold; }
+ p.a1, li.a1, div.a1 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:51.05pt; text-align:justify; text-justify:inter-ideograph; line-height:18.0pt; font-size:10.5pt; font-family:"Times New Roman","serif"; color:#0066CC; }
+ p.a2, li.a2, div.a2 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:38.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:-21.0pt; line-height:20.0pt; font-size:10.5pt; font-family:"Times New Roman","serif"; }
+ span.Char1 { font-family:"Times New Roman","serif"; }
+ span.Char2 { font-family:"Times New Roman","serif"; font-weight:bold;}
+ span.Char3 { font-family:"Times New Roman","serif"; }
+ p.a3, li.a3, div.a3 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:38.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.a4, li.a4, div.a4 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:21.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.a5, li.a5, div.a5 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:justify; text-justify:inter-ideograph; line-height:18.0pt; font-size:16.0pt; font-family:"Arial","sans-serif"; font-weight:bold; }
+ p.a6, li.a6, div.a6 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:2.0cm; text-align:justify; text-justify:inter-ideograph; text-indent:-19.85pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.a7, li.a7, div.a7 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:0cm; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.a8, li.a8, div.a8 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:0cm; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; color:#0066CC; }
+ p.a9, li.a9, div.a9 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:21.0pt; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.aa, li.aa, div.aa { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:0cm; text-align:center; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; font-weight:bold; }
+ span.Char4 { font-family:"Times New Roman","serif"; color:#0066CC; font-weight:bold; }
+ p.ab, li.ab, div.ab { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:72.05pt; text-align:justify; text-justify:inter-ideograph; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Times New Roman","serif"; color:#0066CC; }
+ p.ac, li.ac, div.ac { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:center; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.ad, li.ad, div.ad { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:17.0pt; text-align:center; line-height:18.0pt; font-size:9.0pt; font-family:"Arial","sans-serif"; }
+ p.ae, li.ae, div.ae { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:21.0pt; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; }
+ p.af, li.af, div.af { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:72.05pt; text-align:justify; text-justify:inter-ideograph; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Times New Roman","serif"; color:#0066CC; }
+ p.af0, li.af0, div.af0 { margin-top:6.0pt; margin-right:0cm; margin-bottom:6.0pt; margin-left:21.0pt; text-indent:-21.0pt; line-height:18.0pt; font-size:10.5pt; font-family:"Arial","sans-serif"; color:#0066CC; }
+ p.af1, li.af1, div.af1 { margin:0cm; margin-bottom:.0001pt; text-align:justify; text-justify:inter-ideograph; line-height:12.0pt; font-size:10.5pt; font-family:"Times New Roman","serif"; font-weight:bold;}
+ p.af2, li.af2, div.af2 { margin-top:7.8pt; margin-right:0cm; margin-bottom:7.8pt; margin-left:21.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:-10.0pt; line-height:12.0pt; font-size:10.5pt; font-family:"Times New Roman","serif"; }
+ .MsoChpDefault { font-family:"Calibri","sans-serif"; }
+ 
+/* Page Definitions */
+ @page { }
+ @page WordSection1 {size:841.9pt 595.3pt; margin:90.0pt 72.0pt 90.0pt 72.0pt; layout-grid:15.6pt 0pt; }
+ div.WordSection1 {page:WordSection1;}
+ @page WordSection2 {size:841.9pt 595.3pt; margin:90.0pt 72.0pt 90.0pt 72.0pt; layout-grid:15.6pt 0pt; }
+ div.WordSection2 {page:WordSection2;}
+ @page WordSection3 {size:841.9pt 595.3pt; margin:90.0pt 72.0pt 90.0pt 72.0pt; layout-grid:15.6pt 0pt; }
+ div.WordSection3 {page:WordSection3;}
+ @page WordSection4 {size:841.9pt 595.3pt; margin:90.0pt 72.0pt 90.0pt 72.0pt; layout-grid:15.6pt 0pt; }
+ div.WordSection4 {page:WordSection4;}
+ @page WordSection5 {size:841.9pt 595.3pt; margin:90.0pt 72.0pt 90.0pt 72.0pt; layout-grid:15.6pt 0pt; }
+ div.WordSection5 {page:WordSection5;}
+ @page WordSection6 {size:841.9pt 595.3pt; margin:90.0pt 72.0pt 90.0pt 72.0pt; layout-grid:15.6pt 0pt; }
+ div.WordSection6 {page:WordSection6;}
+ 
+/* List Definitions */
+ @list l0 { }
+ @list l0:level1 { margin-left:21.0pt; text-indent:-21.0pt; font-family:"Arial","sans-serif"; color:black; text-transform:none; position:relative; top:0pt; letter-spacing:0pt; font-emphasize:none; text-decoration:none; text-underline:none; text-decoration:none; text-line-through:none; vertical-align:baseline;}
+ @list l0:level2 { margin-left:42.0pt; text-indent:-21.0pt;}
+ @list l0:level3 { margin-left:63.0pt; text-indent:-21.0pt;}
+ @list l0:level4 { margin-left:84.0pt; text-indent:-21.0pt;}
+ @list l0:level5 { margin-left:105.0pt; text-indent:-21.0pt;}
+ @list l0:level6 { margin-left:126.0pt; text-indent:-21.0pt;}
+ @list l0:level7 { margin-left:147.0pt; text-indent:-21.0pt;}
+ @list l0:level8 { margin-left:168.0pt; text-indent:-21.0pt;}
+ @list l0:level9 { margin-left:189.0pt; text-indent:-21.0pt;}
+ @list l1 { }
+ @list l1:level1 { margin-left:21.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level2 { margin-left:42.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level3 { margin-left:63.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level4 { margin-left:84.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level5 { margin-left:105.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level6 { margin-left:126.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level7 { margin-left:147.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level8 { margin-left:168.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l1:level9 { margin-left:189.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l2 { }
+ @list l2:level1 { margin-left:38.0pt; text-indent:-21.0pt; font-variant:normal !important; text-transform:none; position:relative; top:0pt; letter-spacing:0pt; text-effect:none; text-shadow:none; text-effect:none; text-effect:none; mso-style-style3d-lightrigtype:13; mso-style-style3d-lightrigdirection:2; mso-style-style3d-lightrigrotation-anglatitude:0; mso-style-style3d-lightrigrotation-anglongitude:0; mso-style-style3d-lightrigrotation-angrevolution:0; font-emphasize:none; text-decoration:none; text-underline:none; text-decoration:none; text-line-through:none; vertical-align:baseline;}
+ @list l2:level2 { margin-left:42.0pt; text-indent:-21.0pt;}
+ @list l2:level3 { margin-left:63.0pt; text-indent:-21.0pt;}
+ @list l2:level4 { margin-left:84.0pt; text-indent:-21.0pt;}
+ @list l2:level5 { margin-left:105.0pt; text-indent:-21.0pt;}
+ @list l2:level6 { margin-left:126.0pt; text-indent:-21.0pt;}
+ @list l2:level7 { margin-left:147.0pt; text-indent:-21.0pt;}
+ @list l2:level8 { margin-left:168.0pt; text-indent:-21.0pt;}
+ @list l2:level9 { margin-left:189.0pt; text-indent:-21.0pt;}
+ @list l3 { }
+ @list l3:level1 { margin-left:38.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level2 { margin-left:42.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level3 { margin-left:63.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level4 { margin-left:84.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level5 { margin-left:105.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level6 { margin-left:126.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level7 { margin-left:147.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level8 { margin-left:168.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l3:level9 { margin-left:189.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4 { }
+ @list l4:level1 { margin-left:72.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level2 { margin-left:93.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level3 { margin-left:114.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level4 { margin-left:135.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level5 { margin-left:156.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level6 { margin-left:177.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level7 { margin-left:198.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level8 { margin-left:219.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l4:level9 { margin-left:240.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l5 { }
+ @list l5:level1 { margin-left:21.0pt; text-indent:-21.0pt; font-variant:normal !important; text-transform:none; position:relative; top:0pt; letter-spacing:0pt; text-effect:none; text-shadow:none; text-effect:none; text-effect:none; mso-style-style3d-lightrigtype:13; mso-style-style3d-lightrigdirection:2; mso-style-style3d-lightrigrotation-anglatitude:0; mso-style-style3d-lightrigrotation-anglongitude:0; mso-style-style3d-lightrigrotation-angrevolution:0; font-emphasize:none; text-decoration:none; text-underline:none; text-decoration:none; text-line-through:none; vertical-align:baseline;}
+ @list l5:level2 { margin-left:42.0pt; text-indent:-21.0pt;}
+ @list l5:level3 { margin-left:63.0pt; text-indent:-21.0pt;}
+ @list l5:level4 { margin-left:84.0pt; text-indent:-21.0pt;}
+ @list l5:level5 { margin-left:105.0pt; text-indent:-21.0pt;}
+ @list l5:level6 { margin-left:126.0pt; text-indent:-21.0pt;}
+ @list l5:level7 { margin-left:147.0pt; text-indent:-21.0pt;}
+ @list l5:level8 { margin-left:168.0pt; text-indent:-21.0pt;}
+ @list l5:level9 { margin-left:189.0pt; text-indent:-21.0pt;}
+ @list l6 { }
+ @list l6:level1 { margin-left:21.6pt; text-indent:-21.6pt; }
+ @list l6:level2 { margin-left:28.8pt; text-indent:-28.8pt; }
+ @list l6:level3 { margin-left:99.85pt; text-indent:-36.0pt; }
+ @list l6:level4 { margin-left:43.2pt; text-indent:-43.2pt;}
+ @list l6:level5 { margin-left:50.4pt; text-indent:-50.4pt;}
+ @list l6:level6 { margin-left:57.6pt; text-indent:-57.6pt;}
+ @list l6:level7 { margin-left:64.8pt; text-indent:-64.8pt;}
+ @list l6:level8 { margin-left:72.0pt; text-indent:-72.0pt;}
+ @list l6:level9 { margin-left:79.2pt; text-indent:-79.2pt;}
+ @list l7 { }
+ @list l7:level1 { margin-left:121.9pt; text-indent:-17.0pt; font-family:Wingdings;}
+ @list l7:level2 { margin-left:121.9pt; text-indent:-17.0pt; font-family:Wingdings;}
+ @list l7:level3 { margin-left:304.1pt; text-indent:-18.0pt; font-family:"Courier New";}
+ @list l7:level4 { margin-left:340.1pt; text-indent:-18.0pt; font-family:Symbol;}
+ @list l7:level5 { margin-left:376.1pt; text-indent:-18.0pt; font-family:"Courier New"; }
+ @list l7:level6 { margin-left:412.1pt; text-indent:-18.0pt; font-family:Wingdings;}
+ @list l7:level7 { margin-left:448.1pt; text-indent:-18.0pt; font-family:Symbol;}
+ @list l7:level8 { margin-left:484.1pt; text-indent:-18.0pt; font-family:"Courier New"; }
+ @list l7:level9 { margin-left:520.1pt; text-indent:-18.0pt; font-family:Wingdings;}
+ @list l8 { }
+ @list l8:level1 { margin-left:.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level2 { margin-left:21.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level3 { margin-left:42.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level4 { margin-left:63.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level5 { margin-left:84.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level6 { margin-left:105.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level7 { margin-left:126.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level8 { margin-left:147.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l8:level9 { margin-left:168.05pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l9 { }
+ @list l9:level1 { margin-left:72.05pt; text-indent:-21.0pt; font-variant:normal !important; text-transform:none; position:relative; top:0pt; letter-spacing:0pt; text-effect:none; text-shadow:none; text-effect:none; text-effect:none; mso-style-style3d-lightrigtype:13; mso-style-style3d-lightrigdirection:2; mso-style-style3d-lightrigrotation-anglatitude:0; mso-style-style3d-lightrigrotation-anglongitude:0; mso-style-style3d-lightrigrotation-angrevolution:0; font-emphasize:none; text-decoration:none; text-underline:none; text-decoration:none; text-line-through:none; vertical-align:baseline;}
+ @list l9:level2 { margin-left:42.0pt; text-indent:-21.0pt;}
+ @list l9:level3 { margin-left:63.0pt; text-indent:-21.0pt;}
+ @list l9:level4 { margin-left:84.0pt; text-indent:-21.0pt;}
+ @list l9:level5 { margin-left:105.0pt; text-indent:-21.0pt;}
+ @list l9:level6 { margin-left:126.0pt; text-indent:-21.0pt;}
+ @list l9:level7 { margin-left:147.0pt; text-indent:-21.0pt;}
+ @list l9:level8 { margin-left:168.0pt; text-indent:-21.0pt;}
+ @list l9:level9 { margin-left:189.0pt; text-indent:-21.0pt;}
+ @list l10 { }
+ @list l10:level1 { margin-left:21.0pt; text-indent:-21.0pt; font-variant:normal !important; text-transform:none; position:relative; top:0pt; letter-spacing:0pt; text-effect:none; text-shadow:none; text-effect:none; text-effect:none; mso-style-style3d-lightrigtype:13; mso-style-style3d-lightrigdirection:2; mso-style-style3d-lightrigrotation-anglatitude:0; mso-style-style3d-lightrigrotation-anglongitude:0; mso-style-style3d-lightrigrotation-angrevolution:0; font-emphasize:none; text-decoration:none; text-underline:none; text-decoration:none; text-line-through:none; vertical-align:baseline;}
+ @list l10:level2 { margin-left:42.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level3 { margin-left:63.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level4 { margin-left:84.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level5 { margin-left:105.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level6 { margin-left:126.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level7 { margin-left:147.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level8 { margin-left:168.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ @list l10:level9 { margin-left:189.0pt; text-indent:-21.0pt; font-family:Wingdings;}
+ ol {margin-bottom:0cm;}
+ ul {margin-bottom:0cm;}
+ --> 

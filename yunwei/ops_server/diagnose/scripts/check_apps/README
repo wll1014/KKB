@@ -1,0 +1,7 @@
+1. 脚本命名规则：
+    check_{app_name}_{sub_app_name}.sh
+
+    # app_name: 与deploy.ini中名称同步
+    # sub_app_name: 子应用，无限制
+
+    如检测内容不是平台应用 或为某一范围的检测，则可忽略以上命名规则

@@ -1,0 +1,950 @@
+/*科达智能运维系统图标css*/
+/*侧边栏图标类*/
+.ops-icons-bg {
+  background: url("/ops/static/img/OpsCommonIcon.png");
+  display: inline-block;
+  background-position-x: 0%;
+  background-position-y: 0%;
+}
+
+.ops-icons-bg.logo {
+  height: 18px;
+  width: 114px;
+  background-position: 0px 0px;
+}
+
+.ops-icons-bg.logo--separator {
+  height: 18px;
+  width: 9px;
+  background-position: -123px 0px;
+}
+
+.ops-icons-bg.logo--userdefault {
+  height: 24px;
+  width: 24px;
+  background-position: -0px -130px;
+}
+
+.ops-icons-bg.logo--msg {
+  height: 24px;
+  width: 24px;
+  background-position: -0px -28px;
+}
+
+.ops-icons-bg.logo--msg:hover {
+  background-position: -34px -28px;
+}
+
+.ops-icons-bg.logo--set {
+  height: 24px;
+  width: 24px;
+  background-position: -0px -62px;
+}
+
+.ops-icons-bg.logo--set:hover {
+  background-position: -34px -62px;
+}
+
+.ops-icons-bg.logo--logout {
+  height: 24px;
+  width: 24px;
+  background-position: -0px -96px;
+}
+
+.ops-icons-bg.logo--logout:hover {
+  background-position: -34px -96px;
+}
+
+/*展开收起按钮*/
+.ops-icons-bg.siderbar--not-collapse {
+  width: 22px;
+  height: 22px;
+  background-position: 0px -164px;
+}
+
+.buttom-collapse:hover .ops-icons-bg.siderbar--not-collapse {
+  background-position: -32px -164px;
+}
+
+.ops-icons-bg.siderbar--collapse {
+  width: 22px;
+  height: 22px;
+  background-position: -128px -164px;
+}
+
+.buttom-collapse:hover .ops-icons-bg.siderbar--collapse {
+  background-position: -160px -164px;
+}
+
+/*展开收起按钮 end*/
+
+/*运维总览*/
+.ops-icons-bg.homepage {
+  width: 22px;
+  height: 22px;
+  background-position: -256px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.homepage,
+.kd-submenu__title:hover .ops-icons-bg.homepage {
+  background-position: -288px -197px;
+}
+
+/*.kd-menu-item.is-active>.ops-icons-bg.homepage{*/
+/*background-position: -288px -197px;*/
+/*}*/
+.ops-icons-bg.homepage.is-active {
+  background-position: -288px -197px;
+}
+
+/*平台监控*/
+.ops-icons-bg.ops-monitor {
+  width: 22px;
+  height: 22px;
+  background-position: -384px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor {
+  background-position: -416px -197px;
+}
+
+.ops-icons-bg.ops-monitor.is-active {
+  background-position: -416px -197px;
+}
+
+/*告警通知*/
+.ops-icons-bg.ops-monitor-alarm {
+  width: 22px;
+  height: 22px;
+  background-position: -128px -260px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm {
+  background-position: -160px -260px;
+}
+
+.ops-icons-bg.ops-monitor-alarm.is-active {
+  background-position: -160px -260px;
+}
+
+/*资源统计*/
+.ops-icons-bg.ops-monitor-alarm-confresource {
+  width: 22px;
+  height: 22px;
+  background-position: -1024px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm-confresource,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm-confresource {
+  background-position: -1056px -228px;
+}
+
+.ops-icons-bg.ops-monitor-alarm-confresource.is-active {
+  background-position: -1056px -228px;
+}
+
+/*数据统计*/
+.ops-icons-bg.ops-monitor-alarm-summary {
+  width: 22px;
+  height: 22px;
+  background-position: 0px -260px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm-summary,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm-summary {
+  background-position: -32px -260px;
+}
+
+.ops-icons-bg.ops-monitor-alarm-summary.is-active {
+  background-position: -32px -260px;
+}
+
+/*会议信息*/
+.ops-icons-bg.ops-monitor-alarm-meetinginfo {
+  width: 22px;
+  height: 22px;
+  background-position: -1151px -228px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm-meetinginfo,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm-meetinginfo {
+  background-position: -1183px -228px
+}
+
+.ops-icons-bg.ops-monitor-alarm-meetinginfo.is-active {
+  background-position: -1183px -228px
+}
+
+/*访问统计*/
+.ops-icons-bg.ops-monitor-app-request {
+  width: 22px;
+  height: 22px;
+  background-position: -1152px -260px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-app-request,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-app-request {
+  background-position: -1184px -260px
+}
+
+.ops-icons-bg.ops-monitor-app-request.is-active {
+  background-position: -1184px -260px
+}
+
+/*终端诊断*/
+.ops-icons-bg.ops-diagnose-terminal {
+  width: 22px;
+  height: 22px;
+  background-position: -1025px -260px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-diagnose-terminal,
+.kd-submenu__title:hover .ops-icons-bg.ops-diagnose-terminal {
+  background-position: -1057px -260px
+}
+
+.ops-icons-bg.ops-diagnose-terminal.is-active {
+  background-position: -1057px -260px
+}
+
+/*智能抓包*/
+.ops-icons-bg.ops-diagnose-intelligentcapture {
+  width: 22px;
+  height: 22px;
+  background-position: -641px -260px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-diagnose-intelligentcapture,
+.kd-submenu__title:hover .ops-icons-bg.ops-diagnose-intelligentcapture {
+  background-position: -673px -260px
+}
+
+.ops-icons-bg.ops-diagnose-intelligentcapture.is-active {
+  background-position: -673px -260px
+}
+
+/*会议拓扑*/
+.ops-icons-bg.ops-diagnose-conftopology {
+  width: 22px;
+  height: 22px;
+  background-position: -511px -260px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-diagnose-conftopology,
+.kd-submenu__title:hover .ops-icons-bg.ops-diagnose-conftopology {
+  background-position: -543px -260px
+}
+
+.ops-icons-bg.ops-diagnose-conftopology.is-active {
+  background-position: -543px -260px
+}
+
+/*链路检测*/
+.ops-icons-bg.ops-monitor-alarm-linkdetection {
+  width: 22px;
+  height: 22px;
+  background-position: -256px -260px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm-linkdetection,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm-linkdetection {
+  background-position: -288px -260px
+}
+
+.ops-icons-bg.ops-monitor-alarm-linkdetection.is-active {
+  background-position: -288px -260px
+}
+
+/*应用检测*/
+.ops-icons-bg.ops-monitor-alarm-applicationdetection {
+  width: 22px;
+  height: 22px;
+  background-position: -384px -260px
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm-applicationdetection,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm-applicationdetection {
+  background-position: -416px -260px;
+}
+
+.ops-icons-bg.ops-monitor-alarm-applicationdetection.is-active {
+  background-position: -416px -260px;
+}
+
+/*业务监控*/
+.ops-icons-bg.ops-monitor-alarm-bmc {
+  width: 22px;
+  height: 22px;
+  background-position: -896px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-monitor-alarm-bmc,
+.kd-submenu__title:hover .ops-icons-bg.ops-monitor-alarm-bmc {
+  background-position: -928px -228px;
+}
+
+.ops-icons-bg.ops-monitor-alarm-bmc.is-active {
+  background-position: -928px -228px;
+}
+
+/*主机管理*/
+.ops-icons-bg.ops-hostmange {
+  width: 22px;
+  height: 22px;
+  background-position: -512px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-hostmange,
+.kd-submenu__title:hover .ops-icons-bg.ops-hostmange {
+  background-position: -544px -197px;
+}
+
+.ops-icons-bg.ops-hostmange.is-active {
+  background-position: -544px -197px;
+}
+
+/*主机监控*/
+.ops-icons-bg.ops-hostmange-hostinfo {
+  width: 22px;
+  height: 22px;
+  background-position: -640px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-hostmange-hostinfo,
+.kd-submenu__title:hover .ops-icons-bg.ops-hostmange-hostinfo {
+  background-position: -672px -197px;
+}
+
+.ops-icons-bg.ops-hostmange-hostinfo.is-active {
+  background-position: -672px -197px;
+}
+
+/*灾备管理*/
+.ops-icons-bg.ops-hostmange-standby {
+  width: 22px;
+  height: 22px;
+  background-position: -768px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-hostmange-standby,
+.kd-submenu__title:hover .ops-icons-bg.ops-hostmange-standby {
+  background-position: -800px -197px;
+}
+
+.ops-icons-bg.ops-hostmange-standby.is-active {
+  background-position: -800px -197px;
+}
+
+/*扩容管理*/
+.ops-icons-bg.ops-hostmange-expansion {
+  width: 22px;
+  height: 22px;
+  background-position: -896px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-hostmange-expansion,
+.kd-submenu__title:hover .ops-icons-bg.ops-hostmange-expansion {
+  background-position: -928px -197px;
+}
+
+.ops-icons-bg.ops-hostmange-expansion.is-active {
+  background-position: -928px -197px;
+}
+
+/*脚本管理*/
+.ops-icons-bg.ops-hostmange-script {
+  width: 22px;
+  height: 22px;
+  background-position: -1024px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-hostmange-script,
+.kd-submenu__title:hover .ops-icons-bg.ops-hostmange-script {
+  background-position: -1056px -197px;
+}
+
+.ops-icons-bg.ops-hostmange-script.is-active {
+  background-position: -1056px -197px;
+}
+
+/*文件分发*/
+.ops-icons-bg.ops-hostmange-distribution {
+  width: 22px;
+  height: 22px;
+  background-position: -1152px -197px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-hostmange-distribution,
+.kd-submenu__title:hover .ops-icons-bg.ops-hostmange-distribution {
+  background-position: -1184px -197px;
+}
+
+.ops-icons-bg.ops-hostmange-distribution.is-active {
+  background-position: -1184px -197px;
+}
+
+/*诊断服务  */
+.ops-icons-bg.ops-diagnose {
+  width: 22px;
+  height: 22px;
+  background-position: 0px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-diagnose,
+.kd-submenu__title:hover .ops-icons-bg.ops-diagnose {
+  background-position: -32px -228px;
+}
+
+.ops-icons-bg.ops-diagnose.is-active {
+  background-position: -32px -228px;
+}
+
+/*版本管理  */
+.ops-icons-bg.ops-version {
+  width: 22px;
+  height: 22px;
+  background-position: -128px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-version,
+.kd-submenu__title:hover .ops-icons-bg.ops-version {
+  background-position: -160px -228px;
+}
+
+.ops-icons-bg.ops-version.is-active {
+  background-position: -160px -228px;
+}
+
+/*FAQ  */
+.ops-icons-bg.ops-faq {
+  width: 22px;
+  height: 22px;
+  background-position: -256px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-faq,
+.kd-submenu__title:hover .ops-icons-bg.ops-faq {
+  background-position: -288px -228px;
+}
+
+.ops-icons-bg.ops-faq.is-active {
+  background-position: -288px -228px;
+}
+
+/*操作记录  */
+.ops-icons-bg.ops-recorder {
+  width: 22px;
+  height: 22px;
+  background-position: -384px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-recorder,
+.kd-submenu__title:hover .ops-icons-bg.ops-recorder {
+  background-position: -416px -228px;
+}
+
+.ops-icons-bg.ops-recorder.is-active {
+  background-position: -416px -228px;
+}
+
+/*维护记录  */
+.ops-icons-bg.ops-recorder-maintenance {
+  width: 22px;
+  height: 22px;
+  background-position: -767px -260px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-recorder-maintenance,
+.kd-submenu__title:hover .ops-icons-bg.ops-recorder-maintenance {
+  background-position: -799px -260px;
+}
+
+.ops-icons-bg.ops-recorder-maintenance.is-active {
+  background-position: -799px -260px;
+}
+
+/*操作日志 */
+.ops-icons-bg.ops-recorder-operationlog {
+  width: 22px;
+  height: 22px;
+  background-position: -896px -260px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-recorder-operationlog,
+.kd-submenu__title:hover .ops-icons-bg.ops-recorder-operationlog {
+  background-position: -928px -260px;
+}
+
+.ops-icons-bg.ops-recorder-operationlog.is-active {
+  background-position: -928px -260px;
+}
+
+/*平台日报  */
+.ops-icons-bg.ops-reporter {
+  width: 22px;
+  height: 22px;
+  background-position: -512px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-reporter,
+.kd-submenu__title:hover .ops-icons-bg.ops-reporter {
+  background-position: -544px -228px;
+}
+
+.ops-icons-bg.ops-reporter.is-active {
+  background-position: -544px -228px;
+}
+
+/*问题跟踪  */
+.ops-icons-bg.ops-problemtrack {
+  width: 22px;
+  height: 22px;
+  background-position: -640px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-problemtrack,
+.kd-submenu__title:hover .ops-icons-bg.ops-problemtrack {
+  background-position: -672px -228px;
+}
+
+.ops-icons-bg.ops-problemtrack.is-active {
+  background-position: -672px -228px;
+}
+
+/*服务授权  */
+.ops-icons-bg.ops-license {
+  width: 22px;
+  height: 22px;
+  background-position: -768px -228px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-license,
+.kd-submenu__title:hover .ops-icons-bg.ops-license {
+  background-position: -800px -228px;
+}
+
+.ops-icons-bg.ops-license.is-active {
+  background-position: -800px -228px;
+}
+
+/*实验室  */
+.ops-icons-bg.ops-lab {
+  width: 22px;
+  height: 22px;
+  background-position: -0px -293px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-lab,
+.kd-submenu__title:hover .ops-icons-bg.ops-lab {
+  background-position: -32px -293px;
+}
+
+.ops-icons-bg.ops-lab.is-active {
+  background-position: -32px -293px;
+}
+
+/*智能监控  */
+.ops-icons-bg.ops-manage {
+  width: 22px;
+  height: 22px;
+  background-position: -384px -293px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-manage,
+.kd-submenu__title:hover .ops-icons-bg.ops-manage {
+  background-position: -416px -293px;
+}
+
+.ops-icons-bg.ops-manage.is-active {
+  background-position: -416px -293px;
+}
+/*运维管理  */
+.ops-icons-bg.ops-operation {
+  width: 22px;
+  height: 22px;
+  background-position: -256px -293px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-operation,
+.kd-submenu__title:hover .ops-icons-bg.ops-operation {
+  background-position: -288px -293px;
+}
+
+.ops-icons-bg.ops-operation.is-active {
+  background-position: -288px -293px;
+}
+/*安全中心  */
+.ops-icons-bg.ops-security {
+  width: 22px;
+  height: 22px;
+  background-position: -512px -293px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-security,
+.kd-submenu__title:hover .ops-icons-bg.ops-security {
+  background-position: -544px -293px;
+}
+
+.ops-icons-bg.ops-security.is-active {
+  background-position: -544px -293px;
+}
+/*智能助手  */
+.ops-icons-bg.ops-assistant {
+  width: 22px;
+  height: 22px;
+  background-position: -640px -293px;
+}
+
+.kd-menu-item:hover .ops-icons-bg.ops-assistant,
+.kd-submenu__title:hover .ops-icons-bg.ops-assistant {
+  background-position: -672px -293px;
+}
+
+.ops-icons-bg.ops-assistant.is-active {
+  background-position: -672px -293px;
+}
+/*侧边栏图标类 end*/
+
+/*其他常用图标*/
+/*告警脸*/
+.ops-icons-bg.icon-face-critical {
+  width: 20px;
+  height: 20px;
+  background-position: 0px -525px;
+}
+
+.ops-icons-bg.icon-face-important {
+  width: 20px;
+  height: 20px;
+  background-position: -30px -525px;
+}
+
+.ops-icons-bg.icon-face-normal {
+  width: 20px;
+  height: 20px;
+  background-position: -60px -525px;
+}
+
+/*右向箭头(菜单栏)*/
+.ops-icons-bg.icon-arrow-right {
+  width: 22px;
+  height: 22px;
+  background-position: 0px -197px;
+}
+
+/*左向箭头(时间轴滚轮按钮)*/
+.ops-icons-bg.icon-arrow-left__timeaxis {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  background-position: -0px -422px
+}
+
+.ops-icons-bg.icon-arrow-left__timeaxis:hover {
+  background-position: -36px -422px
+}
+
+.ops-icons-bg.icon-arrow-left__timeaxis.disabled {
+  background-position: -108px -422px;
+  cursor: not-allowed;
+}
+
+/*右向箭头(时间轴滚轮按钮)*/
+.ops-icons-bg.icon-arrow-right__timeaxis {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  background-position: -144px -422px
+}
+
+.ops-icons-bg.icon-arrow-right__timeaxis:hover {
+  background-position: -180px -422px
+}
+
+.ops-icons-bg.icon-arrow-right__timeaxis.disabled {
+  background-position: -252px -422px;
+  cursor: not-allowed;
+}
+
+/*返回箭头（圆形）*/
+.ops-icons-bg.icon-arrow-circle-left {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: 0px -352px;
+}
+
+.theme-dark .el-button:focus .icon-arrow-circle-left,
+.theme-dark .el-button:hover .icon-arrow-circle-left {
+  background-position: -36px -352px;
+}
+
+.ops-icons-bg.icon-arrow-circle-leftall {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -864px -352px;
+}
+
+.theme-dark .el-button:focus .icon-arrow-circle-leftall,
+.theme-dark .el-button:hover .icon-arrow-circle-leftall {
+  background-position: -900px -352px;
+}
+
+.ops-icons-bg.icon-arrow-circle-rightall {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -1008px -352px;
+}
+
+.theme-dark .el-button:focus .icon-arrow-circle-rightall,
+.theme-dark .el-button:hover .icon-arrow-circle-rightall {
+  background-position: -1044px -352px;
+}
+
+.ops-icons-bg.icon-arrow-circle-right {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -144px -352px;
+}
+
+.theme-dark .el-button:focus .icon-arrow-circle-right,
+.theme-dark .el-button:hover .icon-arrow-circle-right {
+  background-position: -180px -352px;
+}
+
+/*设置（圆形）*/
+.ops-icons-bg.icon-arrow-circle-setting {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -720px -352px;
+}
+
+.theme-dark .el-button:focus .icon-arrow-circle-setting,
+.theme-dark .el-button:hover .icon-arrow-circle-setting {
+  background-position: -756px -352px;
+}
+
+/*图片导出（圆形）*/
+.ops-icons-bg.icon-imgexport {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -576px -352px;
+}
+
+.theme-dark .el-button:focus .icon-imgexport,
+.theme-dark .el-button:hover .icon-imgexport {
+  background-position: -612px -352px;
+}
+
+/*加号（圆形）*/
+.ops-icons-bg.icon-circle-plus {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -288px -352px;
+}
+
+.theme-dark .el-button:focus .icon-circle-plus,
+.theme-dark .el-button:hover .icon-circle-plus {
+  background-position: -324px -352px;
+}
+
+/*减号（圆形）*/
+.ops-icons-bg.icon-circle-minus {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -432px -352px;
+}
+
+.theme-dark .el-button:focus .icon-circle-minus,
+.theme-dark .el-button:hover .icon-circle-minus {
+  background-position: -468px -352px;
+}
+
+/*提示信息*/
+.ops-icons-bg.icon-info {
+  width: 19px;
+  height: 19px;
+  background-position: 0px -482px;
+}
+
+.ops-icons-bg.icon-info:hover {
+  width: 19px;
+  height: 19px;
+  background-position: -29px -482px;
+}
+
+/*提示信息*/
+.ops-icons-bg.icon-errinfo {
+  width: 19px;
+  height: 19px;
+  background-position: -232px -481px;
+}
+
+/*提示信息，非tootip类*/
+.ops-icons-bg.icon-notice {
+  width: 20px;
+  height: 20px;
+  background-position: 0px -743px;
+}
+
+/*.ops-icons-bg.icon-notice:hover{*/
+/*width: 19px;*/
+/*height: 19px;*/
+/*background-position: -29px -482px;*/
+/*}*/
+
+/*全屏*/
+.ops-icons-bg.icon-fullscreen {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -0px -555px;
+}
+
+.theme-dark .el-button:focus .icon-fullscreen,
+.theme-dark .el-button:hover .icon-fullscreen {
+  background-position: -36px -555px;
+}
+
+/*加号*/
+.ops-icons-bg.icon-plus {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -144px -555px;
+}
+
+.theme-dark .el-button:focus .icon-plus,
+.theme-dark .el-button:hover .icon-plus {
+  background-position: -180px -555px;
+}
+
+/*减号*/
+.ops-icons-bg.icon-minus {
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -288px -555px;
+}
+
+.theme-dark .el-button:focus .icon-minus,
+.theme-dark .el-button:hover .icon-minus {
+  background-position: -324px -555px;
+}
+
+/*日历，时间*/
+.ops-icons-bg.icon-calendar {
+  width: 18px;
+  height: 18px;
+  /*border-radius: 50%;*/
+  background-position: -113px -324px;
+}
+
+.el-date-editor .el-range__icon {
+  margin-left: 0px;
+  transition: none;
+  /*margin-right: 10px;*/
+}
+
+/*.el-date-editor .el-range-input{*/
+/*width: 35%;*/
+/*}*/
+.el-date-editor.is-active .icon-calendar {
+  background-position: -141px -324px;
+}
+
+.el-date-editor .el-range-separator {
+  width: 18px;
+  height: 18px;
+  /*border-radius: 50%;*/
+  background: url("/ops/static/img/OpsCommonIcon.png");
+  background-position: -218px -323px
+}
+
+.el-date-editor.is-active .el-range-separator {
+  background-position: -246px -323px;
+}
+
+/*插入类图标*/
+.ops-icons-bg.icon__caret--arrow-down {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-position: 0px -324px;
+  margin-top: 4px;
+}
+
+.el-input.popover-is-reverse .icon__caret--arrow-down {
+  background-position: -28px -324px;
+}
+
+.popover-is-reverse.el-input .el-input__inner {
+  border-color: #299dff;
+}
+
+/*硬盘，磁盘*/
+.ops-icons-bg.icon-disk {
+  width: 90px;
+  height: 90px;
+  /*border-radius: 50%;*/
+  background-position: -0px -642px;
+}
+
+/*web统计 请求总次数*/
+.ops-icons-bg.icon-web-request-pv {
+  width: 80px;
+  height: 80px;
+  /*border-radius: 50%;*/
+  background-position: -721px -774px;
+}
+
+/*web统计 IP访问数*/
+.ops-icons-bg.icon-web-request-uv {
+  width: 80px;
+  height: 80px;
+  /*border-radius: 50%;*/
+  background-position: -811px -774px;
+}
+
+/*web统计 接口平均响应时长*/
+.ops-icons-bg.icon-web-request-avgtime {
+  width: 80px;
+  height: 80px;
+  /*border-radius: 50%;*/
+  background-position: -891px -774px;
+}
+
+/*web控制台*/
+.ops-icons-bg.icon-web-console {
+  width: 80px;
+  height: 80px;
+  /*border-radius: 50%;*/
+  background-position: -90px -860px;
+}
+
+/*kibana入口*/
+.ops-icons-bg.icon-kibana {
+  width: 80px;
+  height: 80px;
+  /*border-radius: 50%;*/
+  background-position: -0px -860px;
+}
+
+/*科达智能运维系统图标css end*/

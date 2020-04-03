@@ -1,0 +1,6 @@
+---
+- hosts: all
+  gather_facts: False
+  tasks:
+    - name: tcpdump
+      script: /opt/data/ops/media/custom_capture/tmp_tcpdump.sh

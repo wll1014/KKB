@@ -1,0 +1,47 @@
+#!/bin/sh
+# chkconfig: - 25 15
+# description: Quality Timer
+# processname: ops_quality_timer-process
+
+BASE_PATH=/opt/ops/ops_server/qualitytimer
+PYTHON=/opt/midware/python3/bin/python3
+PYTHONPATH=${PYTHONPATH}:/opt/ops/ops_python3/lib/python3.5/site-packages/
+TIMER=/opt/ops/ops_server/qualitytimer/redis_conf_list_watcher.py
+TIMER_PID_FILE=/opt/data/ops/ops_quality_timer.pid
+PROCESS_NAME="ops_quality_timer-process"
+
+start(){
+    echo "Starting quality timer..."
+    PYTHONPATH=${PYTHONPATH} ${PYTHON} ${TIMER}
+    echo "OK."
+    return 0
+}
+
+stop(){
+    echo "Stop quality timer..."
+    if [ -e ${TIMER_PID_FILE} ];then
+	    killall ${PROCESS_NAME}
+        sleep 0.1
+	    echo "OK."
+    fi
+    timer_pid=`pidof ${PROCESS_NAME}`
+    [ -z "${timer_pid}" ] && echo "quality-timer is not running" || kill -9 ${timer_pid}
+    return 0
+}
+
+if [ "$#" -eq "0" ];then
+    echo "usage: $0 {start|stop|restart}"
+    exit 1
+fi
+
+if [ "$1" = "start" ];then
+    start
+elif [ "$1" = "stop" ];then
+    stop
+elif [ "$1" = "restart" ];then
+    stop
+    sleep 1
+    start
+else
+    echo "usage: $0 arguments only start and stop or restart !"
+fi

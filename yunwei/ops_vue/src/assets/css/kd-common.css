@@ -1,0 +1,132 @@
+/* 科达常用css */
+/* 蓝色渐变色 */
+.kd-gradation-blue {
+  background: linear-gradient(to right, #2c83b4, #56a5d6);
+  background: -ms-linear-gradient(to right, #2c83b4, #56a5d6);
+  background: -webkit-linear-gradient(to right, #2c83b4, #56a5d6);
+  background: -o-linear-gradient(to right, #2c83b4, #56a5d6);
+  background: -moz-linear-gradient(to right, #2c83b4, #56a5d6);
+}
+
+.ops-button-text {
+  border-color: transparent;
+  color: #4796c4;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: underline;
+  outline: none;
+  margin: 0;
+  transition: .1s;
+  font-size: 14px;
+}
+
+.ops-button-text:hover {
+  color: #299dff;
+}
+
+.ops-button-text.error {
+  color: #e45959;
+}
+
+.ops-button-text.error:hover {
+  color: #e45959;
+}
+
+/* 科达常用css -- end */
+
+/*各组件复用css ywj*/
+/*列表上文字按钮*/
+.button-host-info {
+  border-color: transparent;
+  color: #00a2ff;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  transition: .1s;
+  font-size: 14px;
+}
+
+.theme-dark .el-table--enable-row-hover .el-table__body tr:hover > td .button-host-info {
+  color: #fff;
+}
+
+/*清除掉不用清除按钮的时间选择图标*/
+.clear-close-icon.el-date-editor .el-range__close-icon {
+  width: 0px;
+}
+
+/*TODO: 用于临时开发页面的提示 功能完全开发完成后删除 -- 20200318*/
+.tem-develop-block {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: calc(50vh - 100px);
+  left: calc(50vw - 150px);
+  z-index: 999;
+  font-size: 20px;
+  color: #299dff;
+  /*background-color: #a9a9a9;*/
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0px 2px 20px #23BFF9 inset
+  /*box-shadow: rgb(11, 234, 235) 0px 0px 20px inset;*/
+}
+
+.tem-develop-block > div:first-child {
+  font-size: 30px;
+  /*color:  rgb(228, 89, 89);*/
+  color: #299dff;
+}
+
+/*TODO: 用于临时开发页面的提示 功能完全开发完成后删除 end*/
+
+/*用于手动创建的tip class*/
+.ops-tip-defalut {
+  position: absolute;
+  z-index: 99;
+  word-wrap: break-word;
+  word-break: normal;
+  padding: 14px;
+  border: 1px solid #383b3c;
+  background-color: #141414;
+}
+
+/*类似玻璃窗口类型的button（如：视图，列表的切换button)*/
+.button-glass {
+  background-color: #232629;
+  color: #fff;
+  width: 60px;
+  height: 24px;
+  border: 1px solid #485a6b;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button-glass:hover {
+  color: #00a2ff;
+}
+
+.button-glass.active {
+  background-color: #485a6b;
+  color: #fff;
+  width: 60px;
+  height: 24px;
+  border: 0;
+}
+
+/*各组件复用css end  ywj*/

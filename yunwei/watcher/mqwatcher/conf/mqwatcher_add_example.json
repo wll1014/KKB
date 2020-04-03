@@ -1,0 +1,134 @@
+{
+  "node_info": {
+    "app_moid": "54f08eba-6652-11e9-8da9-001e67e37d47",
+    "group_moid": "business_547549da-6652-11e9-8da9-001e67e37d47",
+    "room_id": "mooooooo-oooo-oooo-oooo-defaultmachi",
+    "platform_domain_moid": "mooooooo-oooo-oooo-oooo-defaultplatf",
+    "service_domain_moid": "mooooooo-oooo-oooo-oooo-defaultserdo"
+  },
+  "eqp_info": {
+    "board_id": "50981888-6652-11e9-8da9-001e67e37d47"
+  },
+  "mq_info": {
+    "user_pwd": "dev",
+    "user_name": "dev",
+    "vhost": "/",
+    "mq_ip_addr": [
+      "172.16.186.208",
+      "172.16.186.209"
+    ],
+    "mq_port": "5672"
+  },
+  "json": {
+    "queue": [
+      "css.res.q",
+      "mau.conf.q",
+      "meeting.rpcmau.q",
+      "mau.cmmau.q",
+      "mau.cmmcu.q",
+      "meeting.rpchdu.q",
+      "meeting.rpcvrs.q",
+      "meeting.vrsntf.q",
+      "meeting.css.q",
+      "meeting.nppclient.q",
+      "wps.notify.q",
+      "meeting.cmu.q",
+      "ns.push.q",
+      "meeting.rpcmcu.q"
+    ],
+    "exchange": [
+      [
+        "mau.conf.ex",
+        ""
+      ],
+      [
+        "ns.push.ex",
+        ""
+      ],
+      [
+        "wps.notify.ex",
+        ""
+      ],
+      [
+        "meeting.nppclient.ex",
+        ""
+      ],
+      [
+        "meeting.css.ex",
+        ""
+      ],
+      [
+        "meetingssn.cmmeetingssn.ex",
+        ""
+      ],
+      [
+        "vrs.cmvrs.ex",
+        ""
+      ],
+      [
+        "meeting.vrsntf.ex",
+        ""
+      ],
+      [
+        "cmu.cmcmu.ex",
+        ""
+      ],
+      [
+        "cmu.conf.ex",
+        ""
+      ],
+      [
+        "cmdataproxy.conf.ex",
+        "cmdataproxy.conf.json.k*"
+      ],
+      [
+        "rms.res.ex",
+        ""
+      ],
+      [
+        "mau.cmmau.ex",
+        ""
+      ],
+      [
+        "meeting.cmu.ex",
+        ""
+      ],
+      [
+        "meeting.mccntf.ex",
+        ""
+      ],
+      [
+        "nms.collector.ex",
+        "collector.nms.k"
+      ]
+    ]
+  },
+  "pb": {
+    "queue": [
+      "dssclient.*"
+    ],
+    "exchange": [
+      [
+        "dssmaster.rcv.ex",
+        ""
+      ]
+    ]
+  },
+  "watcher": {
+    "log_path": "/opt/log/datawatcher/",
+    "log_level": "INFO",
+    "extra_consumers": {
+      "alternate_consumer": {
+        "exchange": "alternate.exchange",
+        "queue": "ops.alternate.q",
+        "routing_key": "#"
+      }
+    }
+  },
+  "kafka_info": {
+    "ip_addr": [
+      "10.67.16.101"
+    ],
+    "port": "9092"
+  }
+}

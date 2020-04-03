@@ -1,0 +1,49 @@
+#!/bin/sh
+# chkconfig: - 25 15
+# description: Warning Timer
+# processname: ops-warning-timer-process
+
+BASE_PATH=/opt/ops/ops_server/warning_timer
+PYTHON=/opt/midware/python3/bin/python3
+PYTHONPATH=${PYTHONPATH}:/opt/ops/ops_python3/lib/python3.5/site-packages/
+TIMER=${BASE_PATH}/warning_timer.py
+TIMER_PID_FILE=/opt/data/ops/warning-timer.pid
+PROCESS_NAME="ops-warning-timer-process"
+
+start(){
+    echo "Starting warning timer..."
+    PYTHONPATH=${PYTHONPATH} ${PYTHON} ${TIMER}
+    echo "OK."
+    return 0
+}
+
+stop(){
+    echo "Stop warning-timer..."
+    if [ -e ${TIMER_PID_FILE} ];then
+	    killall ${PROCESS_NAME}
+        sleep 0.1
+	    echo "OK."
+    fi
+    timer_pid=`pidof ${PROCESS_NAME}`
+    [ -z "${timer_pid}" ] && echo "warning-timer is not running" || kill -9 ${timer_pid}
+    return 0
+}
+
+if [ "$#" -eq "0" ];then
+    echo "usage: $0 {start|stop|restart}"
+    exit 1
+fi
+
+if [ "$1" = "start" ];then
+    start
+elif [ "$1" = "stop" ];then
+    stop
+elif [ "$1" = "restart" ];then
+    stop
+    sleep 1
+    start
+else
+    echo "usage: $0 arguments only start and stop or restart !"
+fi
+
+

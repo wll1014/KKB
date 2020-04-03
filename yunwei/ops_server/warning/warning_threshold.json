@@ -1,0 +1,1 @@
+[{"model": "warning.warningthresholdmodel", "pk": 1, "fields": {"cpu": 80, "memory": 80, "disk": 80, "diskwritespeed": 2, "rateofflow": 60, "diskage": 20, "vmp": 80, "mixer": 80, "mp": 80, "ap": 80, "video_num": 16, "live_num": 3, "viewer_num": 300, "dcs_conf_num": 25, "dcs_user_num": 25}}]

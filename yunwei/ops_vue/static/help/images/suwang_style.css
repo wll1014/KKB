@@ -1,0 +1,45 @@
+﻿TABLE
+{
+    font-size: 12px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+}
+
+body
+{
+}
+
+.MsoPageNumber
+{
+    visibility: hidden;
+    display: none;
+}
+
+.sys_PrevUpNext
+{
+    width: 100%;
+}
+
+
+.sys_PrevUpNext div
+{
+    text-align: center;
+}
+
+.highlight
+{
+    background: #FFFF00 !important;
+}
+
+.sys_Childs
+{
+    font-size: 12px;
+    line-height: 140%;
+    font-family: Arial;
+    margin-top: 40px;
+}
+
+.sys_Childs_Title
+{
+    font-size: 14px;
+    font-weight: bold;
+}

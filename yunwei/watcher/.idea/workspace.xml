@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="128a77e5-041f-4254-b7ba-2128dad046a2" name="默认更改列表" comment="">
+      <change afterPath="D:/PythonProject/es_test/es_test.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0002_auto_20190312_1329.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0003_auto_20190312_1811.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0004_auto_20190312_2001.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0005_auto_20190313_1403.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0006_title.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0007_auto_20190402_1541.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0008_auto_20190402_1551.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0009_title_level.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0010_auto_20190402_1633.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0011_auto_20190402_1634.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/my_django/app01/migrations/0012_title2.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/ops/hosts/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/ops/hosts/migrations/0002_auto_20190527_1503.py" afterDir="false" />
+      <change afterPath="D:/PythonProject/ops/hosts/migrations/0003_auto_20190527_1510.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mqwatcher/compile.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mqwathcer/compile.sh" />
+        <option value="$PROJECT_DIR$/mqwatcher/compile.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="298" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="watcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="watcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="watcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="watcher" type="462c0819:PsiDirectoryNode" />
+              <item name="mqwatcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\工作\运维平台项目\31-ops\watcher" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="128a77e5-041f-4254-b7ba-2128dad046a2" name="默认更改列表" comment="" />
+      <created>1560323999134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560323999134</updated>
+      <workItem from="1560324001697" duration="3591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3591000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="96" y="298" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mqwathcer/compile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqwatcher/compile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

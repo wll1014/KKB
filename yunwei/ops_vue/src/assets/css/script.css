@@ -1,0 +1,139 @@
+.ops-icons-bg {
+  background: url("/ops/static/img/OpsCommonIcon.png");
+  display: inline-block;
+  background-position-x: 0%;
+  background-position-y: 0%;
+}
+/*链路模块图标*/
+.ops-icons-bg.icon-link-model-meetting{
+  width: 42px;
+  height: 42px;
+  background-position:0px -590px ;
+}
+/*终端图标*/
+.ops-icons-bg.icon-link-model-terminal{
+  width: 42px;
+  height: 42px;
+  background-position:-52px -590px ;
+}
+/*平台图标*/
+.ops-icons-bg.icon-link-model-platform{
+  width: 42px;
+  height: 42px;
+  background-position:-104px -590px ;
+}
+/*图例图标*/
+.ops-icons-bg.icon-legend-blue{
+  width: 10px;
+  height: 5px;
+  background-position: 0px -510px;
+}
+.ops-icons-bg.icon-legend-red{
+  width: 10px;
+  height: 5px;
+  background-position: -100px -510px;
+}
+.ops-icons-bg.icon-legend-grassGreen{
+  width: 10px;
+  height: 5px;
+  background-position: -120px -510px;
+}
+.ops-icons-bg.icon-legend-orange{
+  width: 10px;
+  height: 5px;
+  background-position: -40px -510px;
+}
+/*圆形加号图标*/
+.ops-icons-bg.icon-arrow-circle-add{
+  width: 26px;
+  height: 26px;
+  /*border-radius: 50%;*/
+  background-position: -288px -352px;
+}
+.theme-dark .el-button:focus .icon-arrow-circle-add,
+.theme-dark .el-button:hover .icon-arrow-circle-add {
+  background-position: -324px -352px;
+}
+.theme-dark .el-button.is-disabled .icon-arrow-circle-add,
+.theme-dark .el-button.is-disabled:focus .icon-arrow-circle-add ,
+.theme-dark .el-button.is-disabled:hover.icon-arrow-circle-add{
+  /*border-radius: 50%;*/
+  background-position: -396px -352px;
+}
+/*会议信息终端拓扑图标*/
+.ops-icons-bg.icon-model-topology-normal{
+  width: 80px;
+  height: 80px;
+  background-position:0 -772px ;
+}
+.ops-icons-bg.icon-topology-meetRoom-normal{
+  width: 80px;
+  height: 80px;
+  background-position:-90px -772px ;
+}
+.ops-icons-bg.icon-topology-television-normal{
+  width: 80px;
+  height: 80px;
+  background-position:-180px -772px ;
+}
+.ops-icons-bg.icon-topology-microphone-normal{
+   width: 80px;
+   height: 80px;
+   background-position:-270px -772px ;
+ }
+.ops-icons-bg.icon-model-topology-abnormal{
+  width: 80px;
+  height: 80px;
+  background-position:-360px -772px ;
+}
+.ops-icons-bg.icon-topology-meetRoom-abnormal{
+  width: 80px;
+  height: 80px;
+  background-position:-450px -772px ;
+}
+.ops-icons-bg.icon-topology-television-abnormal{
+  width: 80px;
+  height: 80px;
+  background-position:-540px -772px ;
+}
+.ops-icons-bg.icon-topology-microphone-abnormal{
+  width: 80px;
+  height: 80px;
+  background-position:-630px -772px ;
+}
+/*操作日志复制图标*/
+.ops-icons-bg.icon-operation-log{
+  width: 26px;
+  height: 26px;
+  background-position:-1152px -352px ;
+}
+.theme-dark .el-button:focus .icon-operation-log,
+.theme-dark .el-button:hover .icon-operation-log {
+  background-position: -1188px -352px;
+}
+/*faq图标*/
+.ops-icons-bg.icon-faq-group-add{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background-position:-672px -324px ;
+
+}
+.theme-dark .el-button:focus .icon-faq-group-add,
+.theme-dark .el-button:hover .icon-faq-group-add,
+.theme-dark .el-button:active .icon-faq-group-add{
+  background-position: -700px -324px;
+}
+.ops-icons-bg.icon-faq-group-dropdown{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background-position:0px -324px ;
+
+}
+.theme-dark .el-button:focus .icon-faq-group-dropdown,
+.theme-dark .el-button:hover .icon-faq-group-dropdown,
+.theme-dark .el-button:active .icon-faq-group-dropdown{
+  background-position: -28px -324px;
+}
+

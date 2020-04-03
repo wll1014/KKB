@@ -1,0 +1,106 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>科达视讯大数据运维系统帮助文档</title>
+    <link href="web_images/frame.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        function PageLoad() {
+            if (parent.frames["frameLeft"] != null && parent.frames["frameLeft"].Keys != null) {
+                var keys = parent.frames["frameLeft"].Keys;
+                for (i = 0; i < keys.length; i++) { highlight(keys[i]); }
+            }
+        }
+
+        function encode(s) {
+            return s.replace(/&/g, "&").replace(/</g, "<").replace(/>/g, ">").replace(/([\\\.\*\[\]\(\)\$\^])/g, "\\$1");
+        }
+
+        function decode(s) {
+            return s.replace(/\\([\\\.\*\[\]\(\)\$\^])/g, "$1").replace(/>/g, ">").replace(/</g, "<").replace(/&/g, "&");
+        }
+
+        function highlight(s) {
+            s = encode(s);
+            var obj = parent.right.document.getElementsByTagName("body")[0];
+            var cnt = loopSearch(s, obj);
+            t = obj.innerHTML;
+            t = t.replace(/{searchHL}/g, "<span class='highlight'>");
+            t = t.replace(/{\/searchHL}/g, "</span>");
+            obj.innerHTML = t;
+        }
+
+        function loopSearch(s, obj) {
+            var cnt = 0;
+            if (obj.nodeType == 3) {
+                cnt = replace(s, obj);
+                return cnt;
+            }
+            for (var i = 0, c; c = obj.childNodes[i]; i++) {
+                if (!c.className || c.className != "highlight")
+                    cnt += loopSearch(s, c);
+            }
+            return cnt;
+        }
+
+        function replace(s, dest) {
+            var r = new RegExp(s, "gi");
+            var tm = null;
+            var t = dest.nodeValue;
+            var cnt = 0;
+            if (tm = t.match(r)) {
+                cnt = tm.length;
+                t = t.replace(r, "{searchHL}" + decode(tm[0].toString()) + "{/searchHL}")
+                dest.nodeValue = t;
+            }
+            return cnt;
+        }
+    </script>
+
+    <script>
+        function Request(name) {
+            var Value = null;
+            var Url = location.href;
+            var Str = Url.split('?');
+            Str = Str[1];
+            if (Str != null) {
+                Str = Str.split('&');
+                for (i = 0; i < Str.length; i++) {
+                    var str = Str[i];
+                    str = str.split('=');
+                    if (str[0] != null && str[0] != "") {
+
+                        if (str[0].toLowerCase() == name.toLowerCase()) {
+                            if (str[1] != null) {
+                                Value = str[1];
+                            }
+                            break;
+                        }
+                    }
+                }
+            }
+            return Value;
+        }
+
+        function Go() {
+            var id = Request("id");
+            if (id != null) {
+                document.getElementById("right").src = id + ".html";
+            }
+            else
+            { document.getElementById("right").src = "1.html"; }
+        }
+
+       window.onload = Go;
+    </script>
+
+</head>
+<frameset id="mainFrame" border="0" framespacing="4" rows="*" frameborder="Yes" cols="220,*"
+    scrolling="Yes">
+    <frame id="frameLeft" name="frameLeft" src="tableContents_frame.html" scrolling="auto">
+    </frame>
+    <frame id="right" name="right" src="about:blank" onload="PageLoad()">
+</frameset>
+<noframes>
+</noframes>
+</html>

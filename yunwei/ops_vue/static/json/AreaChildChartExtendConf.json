@@ -1,0 +1,27 @@
+{
+  "name":"AreaChildChartExtendConf",
+  "cpuLoadConf":{
+    "chartSeriesConf":[
+      {
+        "url":"/hosts/50981888-6652-11e9-8da9-001e67e37d47/load_gauge/",
+        "dataSource":[
+          {
+            "name":"一分钟",
+            "source":["data","system.load.1"],
+            "type":"line"
+          },
+          {
+            "name":"五分钟",
+            "source":["data","system.load.5"],
+            "type":"line"
+          },
+          {
+            "name": "十五分钟",
+            "source": ["data","system.load.15"],
+            "type":"line"
+          }
+        ]
+      }
+    ]
+  }
+}

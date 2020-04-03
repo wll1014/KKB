@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: False
+  tasks:
+    - name: fetch
+      fetch:
+        src: /opt/data/ops/media/custom_capture/ops_{{ inventory_hostname }}.pcap
+        dest: /opt/data/ops/media/custom_capture/server/ops_{{ inventory_hostname }}.pcap
+        flat: yes
