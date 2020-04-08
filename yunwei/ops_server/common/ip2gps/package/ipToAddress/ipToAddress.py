@@ -138,5 +138,6 @@ class ipToAddress():
                 "lng":way_result["res"]["lng"],
                 "lat":way_result["res"]["lat"]
             }
+            print(item)
             cache.cache().add_ip_item(item)
             return way_result

@@ -56,7 +56,7 @@ class cache:
         current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         df = pd.read_csv(self.csv_name)
         df.loc[result["index"], "update_time"] = current_time
-        df.to_csv(self.csv_name)
+        df.to_csv(self.csv_name,header=False)
 
 
 
@@ -64,9 +64,6 @@ class cache:
         print(result)
         current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         df = pd.read_csv(self.csv_name)
-        print(df)
-        print([result["ip"], result["lng"], result["lat"], current_time])
-        print(result["index"])
         df.loc[result["index"]] = [result["ip"], result["lng"], result["lat"], current_time]
-        df.to_csv(self.csv_name)
+        df.to_csv(self.csv_name,header=False)
 

@@ -26,7 +26,7 @@ class baiduGps():
 
 
     def getCityNameByIp(self, ip_address):
-        db = ipdb.City("./package/bdgps/ipipfree.ipdb")
+        db = ipdb.City(self.ipipfree_ipdb)
         region_name = db.find_info(ip_address, "CN").region_name
         city_name = db.find_info(ip_address, "CN").city_name
         return {
